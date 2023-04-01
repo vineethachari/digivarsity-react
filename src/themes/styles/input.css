@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-xm {
+    font-size: 0.5rem;
+}
+.text-xn {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+}
+.text-xo {
+    font-size: 0.563rem;
+}
+.text-10px {
+    font-size: 0.625rem;
+}
+.w-278 {
+    width: 278px;
+}
+.myUniversity, .myIndustry {
+    width: 288px;
+    overflow: visible !important;
+}
+.myUniversity .swiper-pagination, .myIndustry .swiper-pagination {
+    position: relative !important;
+}
+.myIndustry .swiper-wrapper {
+    height: auto !important;
+}
+.swiper-pagination-bullet {
+    background: #C2C2C2 !important;
+}
+.swiper-pagination-bullet-active {
+    background: rgba(217, 217, 217, 0.5)!important;
+}
+.play_3x {
+    transform: translate(-50%, -50%);
+}

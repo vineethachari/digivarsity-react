@@ -1,0 +1,22 @@
+.faqAccordionItem{
+  min-height: 45px !important;
+}
+.footerAccordionItem{
+  min-height: 60px !important;
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: .3s opacity;
+  transform: translate3d(0,0,0);
+  z-index: 10;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom,8px);
+  top: var(--swiper-pagination-top,auto);
+  left: 0;
+  width: 100%;
+}
+.myTestimonial .swiper-wrapper {
+  width: 382px !important;
+}
