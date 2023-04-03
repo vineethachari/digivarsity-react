@@ -19,7 +19,7 @@ export default function FaqItem(props) {
             onClick={onToggle}
           >
             {" "}
-            <strong>Q:</strong> {props.faq?.question}?{" "}
+            <strong>Q:</strong> {props.faq?.question}{" "}
             <span
               className={`ml-auto -mr-1 h-5 w-5 shrink-0 ${
                 active
@@ -55,7 +55,7 @@ export default function FaqItem(props) {
         >
           <div className="pt-0 pb-4 text-xs text-black">
             {" "}
-            {props?.faq?.answer}.{" "}
+            {props?.faq?.answer}{" "}
           </div>
         </div>
       </li>

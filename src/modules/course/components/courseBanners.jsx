@@ -16,7 +16,7 @@ export default function CourseBanners() {
      <IndustrySlider/>
      <CommunitySay/>
      <CounsellorHelp/>
-     <div class="h-6"></div>
+     <div className="h-6"></div>
      <SimilarCoursesSlider/>
     </>
   );
