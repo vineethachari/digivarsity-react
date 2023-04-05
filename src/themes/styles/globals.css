@@ -23,6 +23,9 @@
 .myTestimonial .swiper-wrapper {
   width: 382px !important;
 }
+a.leading-normal {
+  line-height: 2.8 !important;
+}
 
 @media screen and (min-width: 360px) {
   .footerAccordionItem {
