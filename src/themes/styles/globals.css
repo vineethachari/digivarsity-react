@@ -27,6 +27,15 @@ a.leading-normal {
   line-height: 2.8 !important;
 }
 
+.enroll-popup {
+  position: fixed !important;
+  z-index: 9999;
+  width: 100%; 
+  overflow: auto;
+  background-color: white;
+  top: 20%;
+}
+
 @media screen and (min-width: 360px) {
   .footerAccordionItem {
     min-height: 75px !important;
